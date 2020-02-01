@@ -18,7 +18,8 @@ public class FunctionCallAlphabet
 		System.out.println();
 
 		i(13);    // pass it any integer and it will display a word beginning with I
-		j(3);    // returns a different word depending on what you pass it (1-3)
+		String tomato = j(3);
+		System.out.println(tomato);   // returns a different word depending on what you pass it (1-3)
 		k();    // displays a word beginning with K
 		l(false, true);    // displays a different word depending on the two booleans you pass it
 		m(false, false);    // displays a different word depending on the two booleans you pass it
@@ -26,8 +27,8 @@ public class FunctionCallAlphabet
 		o();    // displays a word beginning with O and returns a useless value
 		String parrot = p();
 		System.out.println(parrot);   // returns the word to be displayed
-		String tomato = q();
-		System.out.println(tomato);    // displays the word
+		 q();
+		    // displays the word
 
 
 		String Loki = r(true);
