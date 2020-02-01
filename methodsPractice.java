@@ -23,8 +23,9 @@ public class Methods {
    
    	myMethod();
     
-    myMethod(100, true);
-    
+    myMethod(500, false);
+    myMethod(1000, true); 
+	// This is a commet! -Maria
 
     
   }
