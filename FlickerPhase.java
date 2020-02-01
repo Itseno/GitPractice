@@ -2,7 +2,6 @@ import java.util.Random;
 
 public class FlickerPhrase
 {
-	myMethod
 	
 	public static void main( String[] args )
 	{
@@ -17,26 +16,20 @@ public class FlickerPhrase
 			// If r is 2, then call the function named 'second', and so on.
 			
 		if (r == 3) { 
-                      third()
+            third();
 		} 
 		
 		if (r == 4) {
-			fourth() 
+			fourth();
 		}
 		
 		if (r == 5) {
-			five()
+			five();
 		}
-		
-		}		
-
-			// Optional: after the if statements are over, add in a slight delay.
-		}
-
+	
 		System.out.println("I pledge allegiance to the flag.");
-		
-	}
-
+       }
+    }
 	public static void first()
 	{
 		System.out.print("I                               \r");
