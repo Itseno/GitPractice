@@ -14,7 +14,7 @@ public class FunctionCallAlphabet
 		// ???? h( ???? );    // tell it how many times to display the word (1)
 		System.out.println();
 
-		// ???? i( ???? );    // pass it any integer and it will display a word beginning with I 
+		// ???? i( ???? );    // pass it any integer and it will display a word beginning with I
 		// ???? j( ???? );    // returns a different word depending on what you pass it (1-3)
 		// ???? k( ???? );    // displays a word beginning with K
 		// ???? l( ???? );    // displays a different word depending on the two booleans you pass it
@@ -30,7 +30,7 @@ public class FunctionCallAlphabet
 		// ???? t( ???? );    // displays the word you pass it beginning with "T"
 		// ???? u( ???? );    // returns the word to be displayed
 		// ???? v( ???? );    // tell it how many times to display the word (1)
-		// ???? w( ???? );    // pass it any integer and it will display a word beginning with W 
+		// ???? w( ???? );    // pass it any integer and it will display a word beginning with W
 		// ???? x( ???? );    // returns a different word depending on what you pass it (1-2)
 		// ???? y( ???? );    // displays a word beginning with Y
 		// ???? z( ???? );    // returns a different word depending on which two boolean values you pass it
@@ -72,7 +72,7 @@ public class FunctionCallAlphabet
 			System.out.print( s.charAt(x) );
 			x = x+1;
 		}
-		
+
 	}
 
 	public static void f(String word)
