@@ -8,11 +8,11 @@ public class FunctionCallAlphabet
 		String banana = b();
 		System.out.println(banana);  // returns the word to be displayed
 		c( true );    // pass it 'true' and it will display a word beginning with C
-		String doggie = d();
-		System.out.println(doggie);  // displays a word beginning with D
+		 d();
+	  // displays a word beginning with D
 		e(9);    // pass it the number of letters to display (9)
-		f( Frog );    // displays the word you pass it beginning with "F"
-		System gorilla g();
+		f( "Frog" );    // displays the word you pass it beginning with "F"
+		String gorilla = g();
 		System.out.println(gorilla);  // returns the word to be displayed
 		h(1);    // tell it how many times to display the word (1)
 		System.out.println();
@@ -20,26 +20,29 @@ public class FunctionCallAlphabet
 		i(13);    // pass it any integer and it will display a word beginning with I
 		j(3);    // returns a different word depending on what you pass it (1-3)
 		k();    // displays a word beginning with K
-		l(false true);    // displays a different word depending on the two booleans you pass it
-		m(false false);    // displays a different word depending on the two booleans you pass it
-		n(Narwhal);    // displays the word you pass it beginning with "N"
+		l(false, true);    // displays a different word depending on the two booleans you pass it
+		m(false, false);    // displays a different word depending on the two booleans you pass it
+		n("Narwhal");    // displays the word you pass it beginning with "N"
 		o();    // displays a word beginning with O and returns a useless value
 		String parrot = p();
 		System.out.println(parrot);   // returns the word to be displayed
-		String kumquat = q();    // displays the word
-		System.out.println(kumquat);
+		String tomato = q();
+		System.out.println(tomato);    // displays the word
 
-		r(true);    // returns a different word depending on if you pass it 'true' or 'false'
+
+		String Loki = r(true);
+		System.out.println(Loki);    // returns a different word depending on if you pass it 'true' or 'false'
 		s(6);    // pass it the number of letters to display (6)
-		t(Thyme);    // displays the word you pass it beginning with "T"
+		t("Thyme");    // displays the word you pass it beginning with "T"
 		String yeet = u();
 		System.out.println(yeet);    // returns the word to be displayed
 		v(1);    // tell it how many times to display the word (1)
 		w(13);    // pass it any integer and it will display a word beginning with W
-		x(2);    // returns a different word depending on what you pass it (1-2)
+		String kumquat = x(2);
+		System.out.println(kumquat);   // returns a different word depending on what you pass it (1-2)
 		y();    // displays a word beginning with Y
-		z(false false);    // returns a different word depending on which two boolean values you pass it
-		System.out.println();
+		String gloria = z(false, false);    // returns a different word depending on which two boolean values you pass it
+		System.out.println(gloria);
 	}
 
 	/**************************************
