@@ -4,36 +4,37 @@ public class FunctionCallAlphabet
 {
 	public static void main( String[] args )
 	{
-		// ???? a( ???? );    // displays a word beginning with A
-		// ???? b( ???? );    // returns the word to be displayed
-		// ???? c( ???? );    // pass it 'true' and it will display a word beginning with C
-		// ???? d( ???? );    // displays a word beginning with D
-		// ???? e( ???? );    // pass it the number of letters to display (9)
-		// ???? f( ???? );    // displays the word you pass it beginning with "F"
-		// ???? g( ???? );    // returns the word to be displayed
-		// ???? h( ???? );    // tell it how many times to display the word (1)
+		a(); // ???? a( ???? );    // displays a word beginning with A
+		b();// ???? b( ???? );    // returns the word to be displayed
+		c(true);// ???? c( ???? );    // pass it 'true' and it will display a word beginning with C
+		d();// ???? d( ???? );    // displays a word beginning with D
+		e(9); // ???? e( ???? );    // pass it the number of letters to display (9)
+		f(family);// ???? f( ???? );    // displays the word you pass it beginning with "F"
+		g();// ???? g( ???? );    // returns the word to be displayed
+		h(1);// ???? h( ???? );    // tell it how many times to display the word (1)
 		System.out.println();
 
-		// ???? i( ???? );    // pass it any integer and it will display a word beginning with I
-		// ???? j( ???? );    // returns a different word depending on what you pass it (1-3)
-		// ???? k( ???? );    // displays a word beginning with K
-		// ???? l( ???? );    // displays a different word depending on the two booleans you pass it
-		// ???? m( ???? );    // displays a different word depending on the two booleans you pass it
-		// ???? n( ???? );    // displays the word you pass it beginning with "N"
-		// ???? o( ???? );    // displays a word beginning with O and returns a useless value
-		// ???? p( ???? );    // returns the word to be displayed
-		// ???? q( ???? );    // displays the word
+		int ignoredparameter = 8;
+		i(8);// ???? i( ???? );    // pass it any integer and it will display a word beginning with I
+		j(3);// ???? j( ???? );    // returns a different word depending on what you pass it (1-3)
+		k();// ???? k( ???? );    // displays a word beginning with K
+		l(a);// ???? l( ???? );    // displays a different word depending on the two booleans you pass it
+		m(b);// ???? m( ???? );    // displays a different word depending on the two booleans you pass it
+		n(never);// ???? n( ???? );    // displays the word you pass it beginning with "N"
+		o();// ???? o( ???? );    // displays a word beginning with O and returns a useless value
+		p();// ???? p( ???? );    // returns the word to be displayed
+		q();// ???? q( ???? );    // displays the word
 		System.out.println();
 
-		// ???? r( ???? );    // returns a different word depending on if you pass it 'true' or 'false'
-		// ???? s( ???? );    // pass it the number of letters to display (6)
-		// ???? t( ???? );    // displays the word you pass it beginning with "T"
-		// ???? u( ???? );    // returns the word to be displayed
-		// ???? v( ???? );    // tell it how many times to display the word (1)
-		// ???? w( ???? );    // pass it any integer and it will display a word beginning with W
-		// ???? x( ???? );    // returns a different word depending on what you pass it (1-2)
-		// ???? y( ???? );    // displays a word beginning with Y
-		// ???? z( ???? );    // returns a different word depending on which two boolean values you pass it
+		r(true); // ???? r( ???? );    // returns a different word depending on if you pass it 'true' or 'false'
+		s(6);// ???? s( ???? );    // pass it the number of letters to display (6)
+		t("theme");// ???? t( ???? );    // displays the word you pass it beginning with "T"
+		u();// ???? u( ???? );    // returns the word to be displayed
+		q(1);// ???? v( ???? );    // tell it how many times to display the word (1)
+		w(4);// ???? w( ???? );    // pass it any integer and it will display a word beginning with W
+		x(1);// ???? x( ???? );    // returns a different word depending on what you pass it (1-2)
+		y();// ???? y( ???? );    // displays a word beginning with Y
+		z(a);// ???? z( ???? );    // returns a different word depending on which two boolean values you pass it
 		System.out.println();
 	}
 
